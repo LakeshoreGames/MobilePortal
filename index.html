@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="icon" sizes="192x192" href="images/lc.png">
+    <link rel="manifest" href="manifest.webmanifest">
+    <title>Lake Mobile Portal</title>
+    <script src = "lsGamePortal.js"></script>
+    <script>
+        window.addEventListener("load", function() {
+            lsGamePortal.load("utils.js");
+            lsGamePortal.load("DrawingLibrary.js");
+            lsGamePortal.load("inputHandler.js");
+            lsGamePortal.load("buttonHandler.js");
+            lsGamePortal.load("Sudoku.js");
+            lsGamePortal.load("Flappy.js");
+            lsGamePortal.load("painter.js");
+            lsGamePortal.load("Main.js");
+
+        });
+    </script>
+    <style>
+    html, body {margin: 0; height: 100%; overflow: hidden; background-color: white;}
+    #gameScreen{
+        border: 1px solid black;
+    }
+
+    </style>
+
+</head>
+<body>
+    <canvas id="gameScreen" style= "height : 100vh; width : 100vw"></canvas>
+</body>
+</html>

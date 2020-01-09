@@ -1,0 +1,15 @@
+{
+    "background_color": "black",
+    "description": "Javascript Games",
+    "display": "fullscreen",
+    "icons": [
+      {
+        "src": "images/lc.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ],
+    "name": "LakeshoreGames Portal",
+    "short_name": "LSGP",
+    "start_url": "index.html"
+  }
